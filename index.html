@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/conteudo.css">
+    <link rel="stylesheet" href="assets/css/resize.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+    </style>
+        
+</head>
+<body>
+    <div class="pagina">
+        <header class="cabecalho">
+            <div class="cabecalho__search">
+                <img src="assets/icons/search.svg" class="cabecalho__search___icon">
+                <input type="text" class="cabecalho__search___field">
+            </div>
+            <div class="cabecalho__profile">
+                <img src="assets/icons/notification.svg" class="cabecalho__profile___icon">
+                <img src="assets/images/dog1.jpg" class="cabecalho__profile___img">
+                <h3 class="cabecalho__profile___nome">Lucas Negri</h3>
+            </div>
+            <div class="cabecalho__welcome">
+                <img src="assets/images/dog1.jpg" class="cabecalho__welcome___img">
+                <div class="cabecalho__welcome___escrito">
+                    <p class="cabecalho__welcome___escrito-p">Hi there,<br><span>Lucas Negri <span class="meuid">(@lu_negri)</span></span></p>
+                </div>
+            </div>
+            <div class="cabecalho__buttons">
+                <button type="button">New</button>
+                <button type="button">Upload</button>
+                <button type="button">Share</button>
+            </div>
+        </header>
+        <nav class="menu">
+            <section class="menu__logo">
+                <img class="menu__logo___img" src="assets/icons/logo.svg">
+                <h class="menu__logo___escrito">Dashboard</h>
+            </section>
+            <section class="menu__lista primaria">
+                <div class="menu__lista___item"><a href="#"><img src="assets/icons/home.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Home</p></a></div>
+                <a href="#"><img src="assets/icons/profile.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Profile</p></a>
+                <a href="#"><img src="assets/icons/message.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Messages</p></a>
+                <a href="#"><img src="assets/icons/history.svg" class="menu__lista___icone"><p class="menu__lista___escrito">History</p></a>
+                <a href="#"><img src="assets/icons/task.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Tasks</p></a>
+                <a href="#"><img src="assets/icons/communities.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Communities</p></a>
+            </section>
+            <section class="menu__lista secundaria">
+                <a href="#"><img src="assets/icons/settings.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Settings</p></a>
+                <a href="#"><img src="assets/icons/support.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Support</p></a>
+                <a href="#"><img src="assets/icons/privacy.svg" class="menu__lista___icone"><p class="menu__lista___escrito">Privacy</p></a>
+            </section>
+        </nav>
+        <section class="content">
+            <section class="content__projects">
+                <h3 class="content__projects___titulo">Your Projects</h3>
+                <section class="content__projects___projetos">
+                    <div class="content__projects___projeto">
+                        <h3 class="content__projects___projeto-titulo">Project WebAPI</h3>
+                        <p class="content__projects___projeto-escrito">My objetive with that project was to learn API for integrating back-end system to my pages. I used a lot of React and Node, while looking the developer page.</p>
+                        <div class="content__projects___projeto-icons">
+                            <img src="assets/icons/favorite.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/view.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/share.svg" class="projeto___icons-icone">
+                        </div>
+                    </div>
+                    <div class="content__projects___projeto">
+                        <h3 class="content__projects___projeto-titulo">Project Ruby</h3>
+                        <p class="content__projects___projeto-escrito">Learned ruby by creating an API and integrating it with a Search Query designed to find houses available in your area.</p>
+                        <div class="content__projects___projeto-icons">
+                            <img src="assets/icons/favorite.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/view.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/share.svg" class="projeto___icons-icone">
+                        </div>
+                    </div>
+                    <div class="content__projects___projeto">
+                        <h3 class="content__projects___projeto-titulo">Project Landing Page</h3>
+                        <p class="content__projects___projeto-escrito">Created a landing page for a company that sell Online Piano Courses. Used Bootstrap with react to integrate it to the Database.</p>
+                        <div class="content__projects___projeto-icons">
+                            <img src="assets/icons/favorite.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/view.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/share.svg" class="projeto___icons-icone">
+                        </div>
+                    </div>
+                    <div class="content__projects___projeto">
+                        <h3 class="content__projects___projeto-titulo">Project Orbit</h3>
+                        <p class="content__projects___projeto-escrito">Learned to use Unit by developing a mini-game called Pacman. Used typescript and unit for that.</p>
+                        <div class="content__projects___projeto-icons">
+                            <img src="assets/icons/favorite.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/view.svg" class="projeto___icons-icone">
+                            <img src="assets/icons/share.svg" class="projeto___icons-icone">
+                        </div>
+                    </div>
+                    
+                    
+                </section>
+            </section>
+
+            <section class="content__announcements">
+                <h3 class="content__projects___titulo">Announcements</h3>
+                <div class="content__announcements___anuncios">
+                    <div class="content__announcements___anuncio">
+                        <p class="anuncio__descricao"><span class="anuncio__descricao___titulo">Site maintance</span><br>The website is going to be offline from 10pm to 8am.</p>
+                    </div>
+                    <div class="content__announcements___anuncio">
+                        <p class="anuncio__descricao"><span class="anuncio__descricao___titulo">Update the Private Policy</span><br>We updated the privacy policy terms and you need to agree with the changes.</p>
+                    </div>            
+                </div>
+            </section>  
+            <section class="content__trending">
+                <h3 class="content__projects___titulo trend">Trending</h3>
+                <section class="content__trending___trends">
+                    <div class="content__trending___trend">
+                        <img class="trend__image" src="assets/images/dog2.jpg">
+                        <div class="trend__item">
+                            <p class="trend__user">@Morgan</p>
+                            <p class="trend__desc">React bank API</p>
+                        </div>
+                    </div>
+                    <div class="content__trending___trend">
+                        <img class="trend__image" src="assets/images/dog3.jpg">
+                        <div class="trend__item">
+                            <p class="trend__user">@Flavio</p>
+                            <p class="trend__desc">Kotlin Database Flow</p>
+                        </div>
+                    </div>
+                    <div class="content__trending___trend">
+                        <img class="trend__image" src="assets/images/dog4.jpg">
+                        <div class="trend__item">
+                            <p class="trend__user">@John</p>
+                            <p class="trend__desc">Bootstrap UI</p>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+    </div>
+</body>
+</html>
