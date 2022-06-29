@@ -1,0 +1,62 @@
+
+
+Cores
+
+Branco = #fff
+Azul escuro = #003961
+Azul meio termo = ##0065AD
+azul claro = #0083E0
+Azul ciano = #5AABE6
+Cinza = #515F69
+
+
+
+Menu Esquerda 
+
+    Home
+    Profile
+    Messages
+    History
+    Tasks
+    Communities
+
+    Settings
+    Support
+    Privacy
+
+
+Header
+
+    Icon SearchBar                        Icon    Img  Name
+
+       Img   Hi,Name                 btnNew    btnUpload    btnShare
+
+
+
+
+Main -> 3 div -> grid
+    Your projects(div)                                     Announcements(div)
+    1fr(project)     1fr(project)                           noticia
+                                                            noticia
+                                                            noticia
+    1fr(project)     1fr(project)                           
+                                                            Trending
+                                                            Trend
+    1fr(project)     1fr(project)                           trend
+    
+    
+
+<h3 class="content__projects___titulo">Your Projects</h3>
+                <section class="content__projects___projetos">
+                    <div class="content__projects___projetos____item">
+                        <div class="content__projects___projetos____escrito">
+                            <h3 class="escrito-titulo"></h3>
+                            <p class="escrito-descricao"></p>
+                        </div>
+                        <div class="content__projects___projetos____icons">
+                            <img src="assets/icons/favorite.svg" class="projetos____icons-icone">
+                            <img src="assets/icons/view.svg" class="projetos___icons-icone">
+                            <img src="assets/icons/share.svg" class="projetos___icons-icone">
+                        </div>
+                    </div>
+                </section>
